@@ -1,23 +1,321 @@
-# Navigate to your repository folder
-cd your-repo-name
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slop Spot - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            font-size: 24px;
+        }
+        h3 {
+            color: #333;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        p {
+            color: #555;
+            margin: 15px 0;
+        }
+        ul {
+            color: #555;
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .disclaimer {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .last-updated {
+            color: #888;
+            font-style: italic;
+        }
+        .contact {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .ad-notice {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Slop Spot</h1>
+        <p>Privacy Policy</p>
+    </div>
 
-# Add the file
-git add index.html
+    <div class="container">
+        <p class="last-updated"><strong>Last Updated:</strong> January 18, 2026</p>
 
-# Commit
-git commit -m "Add updated privacy policy with AdMob disclosure"
+        <h2>Overview</h2>
+        <p>Slop Spot ("we," "us," or "our") respects your privacy. This Privacy Policy explains how information is handled when you use our mobile application.</p>
+        <p>By using Slop Spot, you agree to the practices described in this policy.</p>
 
-# Push to GitHub
-git push origin main
-```
+        <h2>Camera and Image Data Collection</h2>
+        <div class="important">
+            <strong>IMPORTANT:</strong> Our app uses your device camera to scan product labels for ingredient analysis and health ratings.
+        </div>
 
-## **Step 3: Enable GitHub Pages** (if not already enabled)
-1. Go to your repo → Settings → Pages
-2. Under "Source", select "Deploy from a branch"
-3. Select "main" branch and "/ (root)"
-4. Click Save
+        <h3>What We Collect</h3>
+        <ul>
+            <li>Temporary camera access to capture photos of product labels, barcodes, and ingredient lists</li>
+            <li>On-device image processing to extract text from food and beverage packaging</li>
+            <li>The app scans product labels to read ingredient information</li>
+        </ul>
 
-## **Step 4: Access Your Privacy Policy**
-Your privacy policy will be live at:
-```
-https://yourusername.github.io/repo-name/
+        <h3>How We Use It</h3>
+        <ul>
+            <li>All image scanning and analysis occurs locally on your device</li>
+            <li>We extract product names and ingredient lists from photos to calculate health ratings</li>
+            <li>The ratings are provided for informational and entertainment purposes only</li>
+            <li>No images, photos, or scanned data are uploaded to any server</li>
+            <li>Photos are processed in real-time and immediately deleted after analysis</li>
+            <li>No biometric identification, facial recognition, or personally identifiable data is extracted</li>
+        </ul>
+
+        <h3>What We DON'T Do</h3>
+        <ul>
+            <li>We do NOT upload photos or scanned images to any server</li>
+            <li>We do NOT share camera data or images with third parties</li>
+            <li>We do NOT store photos on your device or our servers</li>
+            <li>We do NOT use images for any purpose beyond displaying ingredient ratings</li>
+            <li>We do NOT retain any image data after analysis is complete</li>
+            <li>We do NOT sell or share your photos with anyone</li>
+        </ul>
+
+        <h3>Data Retention for Images</h3>
+        <ul>
+            <li>Images are captured and processed in real-time on your device</li>
+            <li>All image data is immediately deleted from device memory after the ingredient analysis is displayed (typically within seconds)</li>
+            <li>No image data persists on your device or anywhere else after analysis</li>
+            <li>The app does not maintain any history of your photos</li>
+        </ul>
+
+        <h3>Your Control</h3>
+        <ul>
+            <li>You must grant camera permission to use the scanning feature</li>
+            <li>You can revoke camera access at any time through your device settings</li>
+            <li>Each scan requires you to actively capture a new photo</li>
+            <li>No photos are taken without your explicit action</li>
+        </ul>
+
+        <h2>Scan History and Local Storage</h2>
+        
+        <h3>What We Store Locally</h3>
+        <ul>
+            <li>Scan results only (product names, ingredient lists, and text-based ratings) are stored on your device only using local storage (AsyncStorage)</li>
+            <li>This allows you to view your scan history within the app</li>
+            <li>Your sorting preferences for viewing scan history (e.g., sort by date, name, or rating)</li>
+            <li><strong>Important:</strong> No photos are stored - only text-based results (product names, ingredients, ratings)</li>
+        </ul>
+
+        <h3>Your Control Over Scan History</h3>
+        <ul>
+            <li>You can delete individual scans at any time using the delete button</li>
+            <li>You can sort and organize your scan history using the sorting settings</li>
+            <li>All scan history and preferences are stored locally on your device only</li>
+            <li>Uninstalling the app will permanently delete all stored scan results and settings</li>
+            <li>We have no access to your scan history - it never leaves your device</li>
+            <li>No scan data is uploaded to servers or shared with anyone</li>
+        </ul>
+
+        <h2>Tutorial and App Features</h2>
+        <p>The app includes a tutorial to help you understand how to use the scanning and analysis features. The tutorial:</p>
+        <ul>
+            <li>Runs locally on your device</li>
+            <li>Does not collect any data about your interaction with it</li>
+            <li>Can be accessed or skipped at your preference</li>
+            <li>Does not send any information to external servers</li>
+        </ul>
+
+        <h2>Advertising</h2>
+        <div class="ad-notice">
+            <strong>ADVERTISING DISCLOSURE:</strong> Slop Spot uses Google AdMob to display advertisements.
+        </div>
+
+        <h3>How Advertising Works</h3>
+        <p>When ads are active in the app, Google AdMob may collect and process certain information to serve personalized advertisements. This may include:</p>
+        <ul>
+            <li>Device information (device type, operating system version)</li>
+            <li>Advertising identifiers (IDFA on iOS, which you can reset in device settings)</li>
+            <li>General location data (approximate location based on IP address)</li>
+            <li>Ad interaction data (which ads you view or click)</li>
+            <li>App usage data (how you interact with the app)</li>
+        </ul>
+
+        <h3>What AdMob Does NOT Receive</h3>
+        <ul>
+            <li>Your photos or scanned images</li>
+            <li>Your scan results or ingredient data</li>
+            <li>Your scan history</li>
+            <li>Any personally identifiable information we collect (because we don't collect any)</li>
+        </ul>
+
+        <h3>Your Advertising Choices</h3>
+        <ul>
+            <li>You can limit ad tracking on iOS by going to Settings > Privacy & Security > Tracking > turning off "Allow Apps to Request to Track"</li>
+            <li>You can reset your advertising identifier in your device settings</li>
+            <li>AdMob's data practices are governed by Google's Privacy Policy, available at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+        </ul>
+
+        <p><strong>Note:</strong> Advertising features are currently integrated in the app but may not be active until verification is complete. When active, ads will be clearly displayed within the app interface.</p>
+
+        <h2>Personal Information</h2>
+        <p>We do NOT collect personal information such as:</p>
+        <ul>
+            <li>Names, email addresses, phone numbers, or account credentials</li>
+            <li>User accounts or profiles</li>
+            <li>Login or registration information</li>
+            <li>User identity tracking across sessions</li>
+            <li>Linking scan results to your identity</li>
+        </ul>
+
+        <h2>How Ingredient Analysis Works</h2>
+        <p>The app uses on-device image recognition and text extraction to:</p>
+        <ul>
+            <li>Read product labels and ingredient lists from packaging</li>
+            <li>Extract ingredient names from photos</li>
+            <li>Provide health ratings based on common nutritional considerations</li>
+            <li>Display information for entertainment and educational purposes</li>
+        </ul>
+        <p>All processing happens on your device. No photos or ingredient data are sent to external servers.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>Slop Spot uses the following third-party services:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> For displaying advertisements (see Advertising section above)</li>
+            <li><strong>App performance monitoring:</strong> For crash reporting and basic usage analytics (anonymous, non-identifying data only)</li>
+        </ul>
+        <p><strong>Important:</strong> These services do NOT receive:</p>
+        <ul>
+            <li>Your photos or images</li>
+            <li>Scan results or ingredient data</li>
+            <li>Your scan history</li>
+        </ul>
+        <p>Any third-party services we use are required to comply with privacy standards. AdMob collects data as described in the Advertising section above. Other analytics services only receive anonymous, aggregated data.</p>
+
+        <h2>No Social Features or Data Sharing</h2>
+        <ul>
+            <li>The app does NOT include social features, voting, or sharing capabilities</li>
+            <li>Scan results are private to you and are NOT uploaded or shared</li>
+            <li>There is no server backend collecting user data or scan results</li>
+            <li>All analysis is done locally for your privacy</li>
+        </ul>
+
+        <h2>Entertainment and Informational Purposes Only</h2>
+        <div class="disclaimer">
+            <strong>DISCLAIMER:</strong> Ingredient ratings and health scores provided by Slop Spot are for informational and entertainment purposes only. They are:
+            <ul>
+                <li>NOT medical advice or nutritional guidance</li>
+                <li>NOT professionally validated health assessments</li>
+                <li>NOT a substitute for professional dietary advice</li>
+                <li>NOT intended for use in medical or health decisions</li>
+            </ul>
+            <p><strong>Always consult qualified healthcare professionals and registered dietitians for dietary decisions and health concerns.</strong></p>
+        </div>
+
+        <h2>Children's Privacy</h2>
+        <p>Slop Spot is not intended for children under the age of 13 (or 16 in some jurisdictions). We do not knowingly collect any information from children. If you are a parent or guardian and believe your child has used our app, please contact us.</p>
+
+        <h2>Data Security</h2>
+        <p>We take reasonable measures to protect the app and its processing systems:</p>
+        <ul>
+            <li>Photos are processed entirely on your device</li>
+            <li>No photos are transmitted over the network</li>
+            <li>Scan results are stored only on your device using secure local storage</li>
+            <li>We cannot access your scan history or photos</li>
+            <li>AdMob uses industry-standard security practices for data it collects</li>
+        </ul>
+        <p>Since photos are never uploaded and are immediately deleted, the risk of photo data exposure is minimized.</p>
+
+        <h2>Your Rights</h2>
+        <p>Regarding data we collect or store:</p>
+        <ul>
+            <li>We do not collect or store personal data, photos, or scan results on servers</li>
+            <li>Once you delete the app, all local scan history is permanently removed</li>
+            <li>You control scan data through your device and the in-app delete functions</li>
+            <li>For advertising data collected by AdMob, you have rights under Google's privacy policies</li>
+            <li>You can control ad tracking through your device settings as described in the Advertising section</li>
+        </ul>
+
+        <h2>International Data Transfers</h2>
+        <p>Regarding our data practices:</p>
+        <ul>
+            <li>All scanning and analysis occurs on your device with no data transfers</li>
+            <li>Your photos and scan results never leave your device</li>
+            <li>AdMob may transfer advertising data internationally in accordance with Google's privacy practices</li>
+        </ul>
+
+        <h2>Region-Specific Information</h2>
+        
+        <h3>California Residents (CCPA)</h3>
+        <p>We do not sell personal information. AdMob may collect data for advertising purposes as described above. Since we don't collect or store personal scan data on servers, CCPA data rights do not apply to that data. All scan data is stored locally on your device under your control.</p>
+
+        <h3>European Economic Area Residents (GDPR)</h3>
+        <p>Our legal basis for processing is your consent (camera permission). AdMob processes advertising data based on legitimate interests and consent where required. Since we don't store scan data on servers, GDPR data retention requirements don't apply to that data. You can withdraw camera consent by revoking access in device settings.</p>
+
+        <h3>Australian Residents</h3>
+        <p>We comply with the Australian Privacy Principles. Since we don't collect or store personal scan information on servers, APP requirements for server-side data handling don't apply to scan data. AdMob's practices are subject to Google's privacy compliance.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected by updating the "Last Updated" date at the top of this policy. We will notify you of material changes through the app or other reasonable means. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>Contact Us</h2>
+        <div class="contact">
+            <p>If you have questions about this Privacy Policy, camera and image data handling, or advertising practices, you can contact us at:</p>
+            <p><strong>Email:</strong> slopspotapp@gmail.com</p>
+            <p>For questions about AdMob and advertising data, you can also review Google's Privacy Policy at <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+        </div>
+
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+        
+        <p style="text-align: center; color: #888; font-size: 14px;">
+            By using the Slop Spot app, you acknowledge that you have read and understood this Privacy Policy, particularly the sections regarding camera usage, on-device image processing, advertising practices, and entertainment-only ingredient ratings.
+        </p>
+    </div>
+</body>
+</html>
